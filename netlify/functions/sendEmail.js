@@ -1,6 +1,5 @@
-require("dotenv").config();
-
 const fetch = require("node-fetch");
+require("dotenv").config();
 
 exports.handler = async (event) => {
   const { name, email, subject, message } = JSON.parse(event.body);

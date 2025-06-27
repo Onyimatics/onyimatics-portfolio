@@ -7,3 +7,5 @@ coverage/
 .env
 *.log
 *.tmp
+# Local Netlify folder
+.netlify
