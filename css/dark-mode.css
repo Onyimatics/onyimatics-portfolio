@@ -42,5 +42,14 @@ body.dark-mode .skill-item {
   body.dark-mode .skill-item span {
     color: #f1f5f9;
   }
+
+
+body.dark-mode .light-logo {
+  display: none;
+}
+
+body.dark-mode .dark-logo {
+  display: inline-block;
+}
   
   

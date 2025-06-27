@@ -125,6 +125,18 @@ nav {
     color: var(--primary-color);
 }
 
+.logo-img {
+  height: 50px;
+  width: auto;
+  vertical-align: middle;
+  display: none;
+}
+
+.light-logo {
+  display: inline-block;
+}
+
+
 .nav-links {
     display: flex;
     list-style: none;
