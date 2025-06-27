@@ -6,7 +6,7 @@ exports.handler = async (event) => {
   const res = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
     method: "POST",
     headers: {
-      "origin": "http://localhost", // adjust for Netlify in prod
+      "origin": process.env.EMAILJS_ORIGIN || "http://localhost",
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
