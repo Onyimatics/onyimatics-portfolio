@@ -51,5 +51,14 @@ body.dark-mode .light-logo {
 body.dark-mode .dark-logo {
   display: inline-block;
 }
+
+body.dark-mode .btn.secondary {
+  color: #ffffff !important;
+  border-color: #ffffff;
+}
+body.dark-mode .btn.secondary:hover {
+    background-color: #ffffff;
+    color: #121212 !important;
+}
   
   
